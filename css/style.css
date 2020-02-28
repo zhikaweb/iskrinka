@@ -1,0 +1,216 @@
+* {
+	font-family: Helvetica, serif;
+	font-size: 14px;
+}
+
+body {
+/* 	background-color: #C6E2FF; */
+	background-color: #FFFDFA;
+	margin: 0;
+	padding: 0;
+/* background-color: #B8C6D1; */
+}
+
+.container {  
+	width: 1300px;
+	margin: auto;
+}
+	
+p.wait{
+	font-size: 16pt;
+	font-style: italic;
+}
+
+h1, h2, p  {
+	text-indent: 2em;
+	text-align: justify;
+}
+
+h1, h2, strong {
+	color: #5A7284;
+}
+h1 {
+	font-size: 16pt;
+}
+nav {
+	background-color: #D1C7B8;
+}
+
+nav a {
+	background-color: #D1C7B8;
+	text-decoration: none;
+	font-size: 14pt;
+	padding: 10px;
+}
+nav a:hover{background-color: #fff8ec;}
+a:link {color: #5A7284}
+a:visited {color: #fcff26;}
+a:active {color: #ff5a00;}
+
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+table {
+	border-collapse: collapse;
+}
+.discount {
+	margin: 0 auto 30px 30px;
+}
+.discount td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.discount td:last-child { 
+	text-align: right;
+}
+footer {
+	padding: 10px;
+	background-color: #D1C7B8;
+	margin-top: 20px;
+	clear: both;
+}
+.menu {
+/* 	border: 1px solid black; */
+	width: 650px;
+	margin: auto;
+	padding: 10px 0;
+	background-image: url(../images/Old_paper_texture_3.jpg);
+}
+
+.menu-items, .menu-header {
+	text-align: center;
+}
+.menu-items, .menu-header, .menu-items-item p {
+	font-family: 'Podkova', serif;
+}
+
+.menu-header {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 0 10px;
+}
+.menu-items-item p {
+	display: inline-block;
+	box-sizing: border-box;
+}
+.menu-items-item p:last-child {
+	text-align: center;
+	width: 10%;
+}
+.menu-items-item p:first-child {
+	width: 65%;
+}
+.menu-items-item p:nth-child(2) {
+	width: 20%;
+}
+
+.contacts, .map {
+	margin: 15px;
+}
+/*
+.contacts::before {
+	content: "Наш адрес:";}
+*/
+
+.row, .row1 {
+	width: 350px;
+/* 	border: 1px solid black; */
+	margin: 15px;
+}
+.row {
+	text-align: right;
+}
+textarea {
+	width: 345px;
+	height: 120px;
+}
+.row label {
+	float: left;
+}
+.row input[type=radio] {
+	float: left;
+}
+/*
+.row1 .form-field:focus {
+	background: #ffe;
+	border: 1px solid red;
+}
+*/
+.main img {
+	float: right;
+	margin: 15px;
+}
+.main {
+	padding: 15px;
+}
+#main-page {
+/* 	border: 1px solid black; */
+	width: 980px;
+	padding: 0 10px 20px;
+}
+.gallery img {
+	display: inline-block;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin: 15px;
+}
+.gallery {
+	text-align: center;
+}
+.collage, #main-page {
+	float: left;
+}
+#main-page h1 {
+	text-align: center;
+	margin-top: 0;
+}
+#main-page img {
+	display: block;
+	margin: 0 auto 30px 30px; /* нужно ли центровать? */
+}
+@media print {
+	nav li, .collage, #main-page img, .main img, form, .gallery {
+		display: none;
+	}
+	#main-page, .main {
+		width: 100%;
+		float: none;
+	}
+	.container {
+		font-size: 2em;
+	}
+}
+@media screen and (max-width: 768px) {
+	.container {
+		width: 600px;
+	}
+	#main-page, .main {
+		width: 100%;
+		float: none;
+	}
+	.collage {
+		float: none;
+	} 
+	#main-page img, .discount {
+		margin: 0 auto 30px;
+	}
+	nav a{
+		font-size: 18pt;
+	}
+	* {
+		font-size: 16pt;
+	}
+	#main-page img {
+		width: 60%;
+	}
+	.menu {
+		width: 80%;
+	}
+}

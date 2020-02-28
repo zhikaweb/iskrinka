@@ -1,0 +1,78 @@
+<!doctype html>
+	<html lang="ru-RU">
+		<head>
+			<title>Контакты</title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="../css/style.css">
+		</head>
+		<body>
+			<div class="container">
+			<a href="../index.html"><img src="../images/Iskrinka_logo2.png" alt="Логотип"></a>
+				<nav>
+					<ul>
+					<li><a href="../index.html">Главная</a></li>
+					<li><a href="history.html">История</a></li>
+					<li><a href="menu.html">Меню</a></li> 
+					<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+			<div class="main">
+
+<div class="contacts">
+    <strong><em>Кафе &laquo;Искринка&raquo;.</em></strong><br>
+	Адрес: г. Севастополь, ул. Ленина, д. 8<br>
+	<em>Телефон: 8 (800) 978-00-00, E-mail: <a href="mailto:info@iskrinka.ru">info@iskrinka.ru</a></em>
+</div>
+
+<div class="map">
+	Как добраться общественным транспортом:<br>
+	<iframe src="https://yandex.ru/map-widget/v1/-/CBBIjMx9oD" width="560" height="400" allowfullscreen></iframe>
+<!-- frameborder="1" ="true" валидатор ругается на эти атрибуты!!!-->
+</div>
+
+
+<h1>Связаться с нами:</h1>
+<form>
+<div class="row">
+  <label>Имя</label> <input type="text" name="name" required><br>
+  <label>E-mail</label> <input type="email" name="email" required><br>
+</div>
+
+<div class="row1">
+  <label>Повод для посещения нашего кафе:</label>	
+  <select name="visit">
+    <option>День рождения</option>
+    <option>Юбилей</option>
+    <option>Годовщина</option>
+    <option>Другое</option>
+    <option>Нет</option>
+  </select>
+</div>
+
+
+<div class="row1">
+  <label>Были ли Вы у нас раньше?</label> <br>
+   <input type="radio" name="question" value="yes" id="yes1" checked>
+   <label for="yes1">Да</label>
+   <input type="radio" name="question" value="no" id="no2">
+   <label for="no2">Нет</label>
+</div>
+
+<div class="row1">
+  <textarea class="form-field" rows="4" cols="30" placeholder="введите сообщение" name="message"></textarea><br>
+</div>
+
+<div class="row1">
+  <input type="checkbox" name="rule" value="1" checked required>Соглашаюсь на обработку персональных данных <br>   
+</div>
+
+<div class="row">
+   <input type="submit" value="Отправить">
+   <input type="reset" value="Очистить">
+</div>
+
+</form>
+			</div>
+			</div>
+		</body>
+	</html>

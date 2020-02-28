@@ -1,0 +1,113 @@
+.menu {
+/* 	border: 1px solid black; */
+	width: 650px;
+	margin: auto;
+	background-image: url(images/Old_paper_texture_3.jpg);
+	font-family: 'Podkova', serif;
+}
+.menu-items, .menu-items-item {
+/* 	border: 1px solid black; */
+}
+.menu-items, .menu-header {
+	text-align: center;
+}
+p {
+	display: inline-block;
+/* 	border: 1px solid black; */
+	box-sizing: border-box;
+}
+.menu-items-item p:last-child {
+	text-align: center;
+	width: 10%;
+}
+.menu-items-item p:first-child {
+	margin-left: 10px;
+	width: 65%;
+}
+.menu-items-item p:nth-child(2) {
+	width: 20%;
+}
+
+
+
+
+
+
+
+
+
+/*  .menu {
+	display: table;
+	border-collapse: collapse;
+	background-image: url(../images/Old_paper_texture_3.jpg);
+	width: 700px;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+.menu ul {
+	list-style-type: none;
+	display: table-row;
+}
+.menu li {
+	display: table-cell;
+	border: 1px solid black; 
+	padding: 10px;
+	font-family: 'Podkova', serif;
+}
+.menu h1 {
+	display: table-caption;
+	text-align: center;
+}
+
+.menu ul li:last-child {
+	text-align: center;
+}
+.menu ul li:first-child {
+	padding-left: 15px; 
+}
+.menu ul:last-child li{
+	padding-bottom: 20px; 
+}
+.menu .dishes {
+/* 	display: inline-block; */
+/* 	text-align: center; 
+	padding: 20px 0;
+	border: 1px solid black;
+}
+*/
+
+/*
+.container {
+	width: 600px;
+	border: 1px solid black;
+	margin: auto;
+}
+.container div {
+	border: 1px solid red;
+}
+*/
+
+
+/* CSS для старой таблицы */
+/*  
+.menu {
+	background-image: url(../images/Old_paper_texture_3.jpg);
+	width: 700px;
+	margin: 50px auto;
+}
+.menu td{
+	padding: 10px;
+	font-family: 'Podkova', serif;
+}
+.menu td.dishes {
+	text-align: center;
+}
+.prises {
+	font-size: 14pt;
+	padding: 5px;
+}
+.menu tr:last-child td{
+	padding-bottom: 25px;
+}
+*/
+
